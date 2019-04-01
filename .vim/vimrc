@@ -1,4 +1,13 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" ==> Pathogen - Must be call before filetype detection
+"                Must be on top of vimrc file
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
 "       Amir Salihefendic — @amix3k
 "
@@ -49,7 +58,7 @@ nmap <leader>w :w!<cr>
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
-command W w !sudo tee % > /dev/null
+"command W w !sudo tee % > /dev/null
 
 " Set numbering ON
 set nu
