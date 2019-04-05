@@ -2,9 +2,8 @@
 " ==> Pathogen - Must be call before filetype detection
 "                Must be on top of vimrc file
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
+call pathogen#infect()
+set guifont=Source\ Code\ Pro\ for\ Powerline\ Semi-Bold\ 12
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
