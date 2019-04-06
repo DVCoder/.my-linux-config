@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/vim-ctrlspace"]
 	path = .vim/bundle/vim-ctrlspace
 	url = https://github.com/vim-ctrlspace/vim-ctrlspace.git
+[submodule ".tmux"]
+	path = .tmux
+	url = https://github.com/gpakosz/.tmux.git
