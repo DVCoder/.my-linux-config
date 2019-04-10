@@ -5,3 +5,4 @@ Steps
 2 - git clone this repo
 3 - ln -s vimrc and .vim
 4- install tmux
+5- TEMP: add bashrc
