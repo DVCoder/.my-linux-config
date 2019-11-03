@@ -6,3 +6,5 @@ Steps
 3 - ln -s vimrc and .vim
 4- install tmux
 5- TEMP: add bashrc
+
+git submodule update --init --recursive
